@@ -36,3 +36,12 @@ JOIN titles as t
 ON (de.emp_no = t.emp_no)
 WHERE (de.to_date = '9999-01-01') AND (birth_date BETWEEN '1965-01-01' AND '1965-12-31') 
 ORDER BY emp_no;
+
+
+--DELIVERABLE #3
+
+SELECT SUM (count) as total_count
+FROM retiring_titles;
+
+SELECT COUNT (*)
+FROM mentorship_eligibilty;
