@@ -1,4 +1,4 @@
---DELIVERABLE #!
+--DELIVERABLE #1
 --Employee_Database_challenge.sql
 SELECT e.emp_no, e.first_name, e.last_name, t.title, t.from_date, t.to_date
 INTO retirement_titles
